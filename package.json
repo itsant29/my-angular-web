@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -51,12 +52,12 @@
   "main": "karma.conf.js",
   "repository": {
     "type": "git",
-    "url": "https://itsant29.github.io/my-angular-web"
+    "url": "git+https://github.com/itsant29/my-angular-web.git"
   },
   "author": "Antoinette Hall",
   "license": "ISC",
   "bugs": {
-    "url": "https://itsant29.github.io/my-angular-web"
+    "url": "https://github.com/itsant29/my-angular-web/issues"
   },
   "homepage": "https://itsant29.github.io/my-angular-web"
 }
